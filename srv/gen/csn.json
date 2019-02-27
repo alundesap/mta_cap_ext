@@ -1,0 +1,14 @@
+{
+  "sources": {
+    "/hana/shared/HXE/xs/app_working/hxehost/executionroot/dcbdf5e7-4fdb-4a1b-8a97-5e464b40f1f5/app/META-INF/.sap_java_buildpack/tomcat/temp/builder/sap.cds.mta/builds/build-3175199124544475033/mta_cap_ext/srv/my-service.cds": "using my.bookshop from '../db/data-model';\n\nservice CatalogService {\n  entity BookInfo {\n    key ID : Integer;\n    copiesSold: Integer;\n  }\n}\n",
+    "/hana/shared/HXE/xs/app_working/hxehost/executionroot/dcbdf5e7-4fdb-4a1b-8a97-5e464b40f1f5/app/META-INF/.sap_java_buildpack/tomcat/temp/builder/sap.cds.mta/builds/build-3175199124544475033/mta_cap_ext/db/data-model.cds": "namespace my.bookshop;\n\nentity Books {\n  key ID : Integer;\n  title  : String;\n  stock  : Integer;\n}\n"
+  },
+  "dependencies": {
+    "/hana/shared/HXE/xs/app_working/hxehost/executionroot/dcbdf5e7-4fdb-4a1b-8a97-5e464b40f1f5/app/META-INF/.sap_java_buildpack/tomcat/temp/builder/sap.cds.mta/builds/build-3175199124544475033/mta_cap_ext/srv/my-service.cds": {
+      "../db/data-model": "/hana/shared/HXE/xs/app_working/hxehost/executionroot/dcbdf5e7-4fdb-4a1b-8a97-5e464b40f1f5/app/META-INF/.sap_java_buildpack/tomcat/temp/builder/sap.cds.mta/builds/build-3175199124544475033/mta_cap_ext/db/data-model.cds"
+    }
+  },
+  "files": [
+    "/hana/shared/HXE/xs/app_working/hxehost/executionroot/dcbdf5e7-4fdb-4a1b-8a97-5e464b40f1f5/app/META-INF/.sap_java_buildpack/tomcat/temp/builder/sap.cds.mta/builds/build-3175199124544475033/mta_cap_ext/srv/my-service.cds"
+  ]
+}
